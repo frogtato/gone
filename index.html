@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gone</title>
+  <!-- p5.js library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: black;
+    }
+    canvas {
+      display: block;
+    }
+    /* Menu Panel Styling */
+    #menuPanel {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+      border-radius: 10px;
+      color: white;
+      font-family: sans-serif;
+      font-size: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5px;
+    }
+    .menuButton {
+      border-radius: 10px;
+      padding: 5px 10px;
+      cursor: pointer;
+      background: #4A148C; /* Dark purple */
+      border: none;
+      color: white;
+      display: block;
+      width: 100%;
+    }
+    .menuLabel, .menuSlider {
+      color: white;
+      display: block;
+      width: 100%;
+    }
+    /* Menu Toggle Arrow Styling */
+    #menuToggleButton {
+      position: absolute;
+      top: 10px;
+      left: 230px; /* Positioned to the right of the menu panel */
+      border-radius: 10px;
+      background: purple;
+      color: white;
+      border: none;
+      padding: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <script src="sketch.js"></script>
+</body>
+</html>
