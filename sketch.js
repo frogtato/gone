@@ -9,8 +9,6 @@
  */
 
 
-
-
 // Flow field variables
 let flowField = [];
 let cols, rows;
