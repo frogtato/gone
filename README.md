@@ -29,9 +29,13 @@ A visual experiment with shapes, particles, generative patterns, fractals, and m
 - **CSS3:** Styling and responsive ui.
 - **JavaScript (p5.js):** Particle system and animations.
 
-## Preview
+## Previews
 
-![Gone Preview](gone.png)
+![Gone Preview 1](gone1.png)
+![Gone Preview 2](gone2.png)
+![Gone Preview 3](gone3.png)
+![Gone Preview 4](gone4.png)
+
 
 ## License
 
