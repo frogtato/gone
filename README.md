@@ -39,7 +39,7 @@ A visual experiment with shapes, particles, generative patterns, fractals, and m
 
 ## License
 
-This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)**. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)**. See the [LICENSE](LICENSE.md) file for details.
 
 ## Author
 
