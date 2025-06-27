@@ -42,7 +42,6 @@ let whatTexts = [];
 
 let bgHue = 0, bgSat = 0, bgBri = 0;
 
-// ---- globals for collective shape mode ----
 let collectiveMode = false; 
 let collectiveShapeMode = 0;
 const collectiveShapeNames = [
@@ -85,7 +84,7 @@ function setup() {
   // create particles
   for (let i = 0; i < numParticles; i++) {
     let p = new Particle();
-    p.index = i; // assign an index to each particle for collective mode targeting
+    p.index = i; 
     particles.push(p);
   }
   
@@ -97,7 +96,6 @@ function setup() {
     });
   }
   
-  // Create the UI menu panel
   menuPanel = createDiv('');
   menuPanel.id('menuPanel');
   menuPanel.style('display', 'flex');
@@ -181,7 +179,6 @@ function computeStarOutline() {
   vertices.push(vertices[0].copy());
   starOutline = vertices;
   
-  // precompute segment lengths
   starOutlineLengths = [];
   starTotalLength = 0;
   for (let i = 0; i < vertices.length - 1; i++) {
